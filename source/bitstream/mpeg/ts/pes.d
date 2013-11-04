@@ -1,5 +1,5 @@
 /* Converted to D from bitstream\mpeg\pes.h by htod */
-module bitstream.mpeg.pes;
+module bitstream.mpeg.ts.pes;
 /*****************************************************************************
  * pes.h: ISO/IEC 13818-1 Packetized Elementary Stream
  *****************************************************************************

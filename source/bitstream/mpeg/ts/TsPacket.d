@@ -214,6 +214,17 @@ class TsPacket
 		return payload[1..$]; /* pointer_field */
 	}
 
+	const(ubyte[]) section() const
+	{
+		auto payload = payload();
+
+		if (! unitstart)
+		{
+			return payload;
+		}
+		return payload[1..$]; /* pointer_field */
+	}
+
 	const(AdaptationField) af() const @property
 	{
         enforce(has_adaptation, "ts packet has no adaptation field");
