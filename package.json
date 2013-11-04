@@ -1,0 +1,24 @@
+{
+	"name": "bitstream",
+	"description": "D translation (partial) of VideoLAN bitstream library",
+	"homepage": "http://example.org",
+	"copyright": "Copyright © 2013, Me or VideoLAN???",
+	"authors": [
+		"VideoLAN"
+	],
+	"dependencies": {
+	},
+
+	"configurations": [
+		{
+			"name": "library",
+			"targetType": "library",
+		},
+		{
+			"name": "tests",
+			"targetType": "executable",
+			"sourcePaths": ["tests"],
+			"dflags" : ["-unittest"]
+		}
+	]
+}
