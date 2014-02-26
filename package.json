@@ -17,8 +17,7 @@
 		{
 			"name": "tests",
 			"targetType": "executable",
-			"sourcePaths": ["tests"],
-			"dflags" : ["-unittest"]
+			"sourcePaths": ["tests"]
 		}
 	]
 }
